@@ -75,6 +75,9 @@ header nav p:not(:last-child) {
 
 /*work with main */
 
+
+/*work with introductory */
+
 .introductory {
     display: flex;
     justify-content: space-between;
@@ -118,6 +121,8 @@ header nav p:not(:last-child) {
 }
 
 
+/*work with statistics */
+
 
 .statistics h2 {
     font: 800 40px 'Mulish';
@@ -149,5 +154,96 @@ header nav p:not(:last-child) {
 
 .statistics .wrapper div :not(:last-child) {
     border-right: 1px;
-    background-color: #E7EAEB;;
+    background-color: #E7EAEB;
+    ;
+}
+
+
+/*work with about-us */
+
+.about-us .advantage h1 {
+    font: 800 46px 'Mulish';
+    text-align: center;
+    color: #001A49;
+    margin-top: 194px;
+}
+
+.about-us .advantage p {
+    font: 400 20px 'Mulish';
+    text-align: center; 
+    margin: 0px auto 61px;
+    color: #4F596A;
+    width: 560px;
+}
+
+.about-us .wrapper-2 :not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.about-us .wrapper-2 .info {
+    background-color: #EEF7FF;
+    border: 1px solid #E7EAEB;
+    border-radius: 21px;
+    height: 172px;
+}
+
+.about-us .wrapper-2 .info .img-vector {
+    background-image: url(./assets/Group\ 8.svg);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    margin-left: 46px;
+    position: relative;
+    top: -100px;
+}
+
+.about-us h2 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    margin: 39px 0 0 130px;
+}
+
+.about-us .wrapper-2 p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    margin: 20px 0 0 130px;
+}
+
+
+/*work with footer */
+
+footer {
+    margin-top: 129px;
+}
+
+footer .img-text {
+    background-image: url(./assets/Marico.svg);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 56px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div h1 {
+    font: 800 37px 'Mulish';
+    color: #001A49;
+}
+
+footer nav p{
+    font: 500 27px 'Mulish';
+    color: #707070;
+}
+
+footer nav p:not(:first-child) {
+    position: relative;
+    top: -40px;
 }
