@@ -155,7 +155,7 @@ header nav p:not(:last-child) {
 .statistics .wrapper div :not(:last-child) {
     border-right: 1px;
     background-color: #E7EAEB;
-    ;
+
 }
 
 
@@ -170,7 +170,7 @@ header nav p:not(:last-child) {
 
 .about-us .advantage p {
     font: 400 20px 'Mulish';
-    text-align: center; 
+    text-align: center;
     margin: 0px auto 61px;
     color: #4F596A;
     width: 560px;
@@ -209,6 +209,39 @@ header nav p:not(:last-child) {
     margin: 20px 0 0 130px;
 }
 
+.rightnow h2 {
+    font: 800 50px 'Mulish';
+    color: #001A49;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.rightnow p {
+    font: 700 20px 'Mulish';
+    color: #FFFFFF;
+}
+
+.rightnow .btn {
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 33px;
+    text-align: center;
+    width: 206px;
+    padding: 19px 0;
+    font: 700 20px 'Mulish';
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.rightnow .img-text {
+    background-image: url(./assets/Marico\ \(1\).svg);
+    width: 153px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 122px;
+}
+
+
 
 /*work with footer */
 
@@ -238,7 +271,7 @@ footer div h1 {
     color: #001A49;
 }
 
-footer nav p{
+footer nav p {
     font: 500 27px 'Mulish';
     color: #707070;
 }
@@ -246,4 +279,97 @@ footer nav p{
 footer nav p:not(:first-child) {
     position: relative;
     top: -40px;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        width: 600px;
+    }
+
+    header {
+        width: 600px;
+    }
+
+    header na {
+        display: none;
+    }
+
+    .introductory {
+        margin-top: 100px;
+    }
+
+    .introductory .img-video {
+        display: none;
+    }
+
+    .introductory .info h1 {
+        font: 800 30px "Mulish";
+        text-align: center;
+    }
+
+    .introductory .info p {
+        text-align: center;
+    }
+
+    .introductory .info .btn {
+        margin: auto;
+    }
+
+    .statistics .wrapper {
+        flex-direction: column;
+        background-color: #F5F5F5;
+        border-width: 0;
+        align-items: center;
+    }
+
+    .statistics .wrapper div :not(:last-child) {
+        border-width: 0;
+    }
+
+    .statistics .img-circle {
+        display: none;
+    }
+
+    .about-us .wrapper-2 .info {
+        max-width: 600px;
+        height: 200px;
+    }
+
+    .about-us .wrapper-2 .info .img-vector {
+        display: none;
+    }
+
+    .about-us .wrapper-2 .info p {
+        margin: 0;
+    }
+
+    .about-us .wrapper-2 .info h2 {
+        margin: 15px 0 0;
+    }
+
+    .about-us .wrapper-2 .info p {
+        margin: 15px 0 0;
+    }
+
+    .rightnow .img-text {
+        width: 103px;
+        height: 100px;
+    }
+
+    .rightnow h1 {
+        font-size: 75px;
+        text-align: center;
+    }
+
+    footer .img-text {
+        width: 58px;
+        height: 36px;
+    }
+
+    footer h1 {
+        font-size: 25px;
+    }
+
+
 }
