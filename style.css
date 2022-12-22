@@ -209,11 +209,14 @@ header nav p:not(:last-child) {
     margin: 20px 0 0 130px;
 }
 
-.rightnow{
+/*work with rightnow */
+
+.rightnow {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .rightnow h2 {
     font: 800 50px 'Mulish';
     color: #001A49;
@@ -292,7 +295,7 @@ footer nav p:not(:first-child) {
         width: 600px;
     }
 
-    header na {
+    header nav {
         display: none;
     }
 
@@ -330,6 +333,10 @@ footer nav p:not(:first-child) {
 
     .statistics .img-circle {
         display: none;
+    }
+
+    .about-us .advantage h1 {
+        margin-top: 50px;
     }
 
     .about-us .wrapper-2 .info {
